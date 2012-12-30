@@ -11,7 +11,7 @@ node_modules:
 clean:
 	rm -fr build components node_modules
 
-test: node_modules
-	@./node_modules/.bin/mocha --require should --reporter spec
+test: node_modules build
+	@./node_modules/.bin/mocha --reporter spec
 
 .PHONY: clean test

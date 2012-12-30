@@ -1,5 +1,5 @@
 {
-  "name": "copy",
+  "name": "copier",
   "description": "Copies the enumerable properties of one or more objects to a target object.",
   "version": "0.0.1",
   "scripts": ["index.js"]

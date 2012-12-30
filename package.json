@@ -1,14 +1,13 @@
 {
-  "name": "copy",
+  "name": "copier",
   "description": "Copies the enumerable properties of one or more objects to a target object.",
   "version": "0.0.1",
   "devDependencies": {
-    "mocha": "*",
-    "should": "*"
+    "mocha": "*"
   },
   "component": {
     "scripts": {
-      "copy": "index.js"
+      "copier": "index.js"
     }
   },
   "scripts": {
