@@ -1,6 +1,6 @@
 # copier
 
-  A JavaScript object property copier.
+  A JavaScript object property copier. Copies the enumerable properties of one or more objects to a target object.
 
 ## Installation
 
