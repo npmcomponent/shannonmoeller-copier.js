@@ -25,6 +25,8 @@ var copier = require('copier'),
 
 copier({}, foo, bar); // returns { a: 1, b: 3, c: 4 }
 
+// foo and bar remain unchanged
+
 copier(foo, bar); // foo now equals { a: 1, b: 3, c: 4 }
 ```
 
