@@ -1,7 +1,7 @@
 {
   "name": "copier",
   "description": "Copies the enumerable properties of one or more objects to a target object.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repo": "shannonmoeller/copier.js",
   "scripts": ["index.js"]
 }
