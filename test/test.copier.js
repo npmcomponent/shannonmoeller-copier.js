@@ -14,7 +14,10 @@ var copier = require('copier');
 
 describe('copier()', function() {
     it('should copy properties from multiple objects to a target object', function() {
-        assert.deepEqual(copier({}, { a: 1, b: 2 }, { b: 3, c: 4 }), { a: 1, b: 3, c: 4 });
+        var foo = { a: 1, b: 2 };
+        var bar = { b: 3, c: 4 };
+
+        assert.deepEqual(copier({}, foo, bar), { a: 1, b: 3, c: 4 });
     });
 
     it('should modify the target object, not the others', function() {

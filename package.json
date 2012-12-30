@@ -1,11 +1,12 @@
 {
   "name": "copier",
   "description": "Copies the enumerable properties of one or more objects to a target object.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "repository": {
     "type": "git",
     "url": "http://github.com/shannonmoeller/copier.js.git"
   },
+  "main": "copier.js",
   "component": {
     "scripts": {
       "copier": "index.js"
