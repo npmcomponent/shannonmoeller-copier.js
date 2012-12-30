@@ -2,8 +2,9 @@
   "name": "copier",
   "description": "Copies the enumerable properties of one or more objects to a target object.",
   "version": "0.0.1",
-  "devDependencies": {
-    "mocha": "*"
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/shannonmoeller/copier.js.git"
   },
   "component": {
     "scripts": {
