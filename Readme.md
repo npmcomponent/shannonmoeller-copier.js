@@ -14,7 +14,7 @@
 
 ## API
 
-### copier(target, objs...)
+### `copier(target, ...objs)`
 
   Copies the enumerable properties of one or more objects to a target object.
 
