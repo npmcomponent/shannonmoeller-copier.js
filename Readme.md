@@ -4,11 +4,11 @@
 
 ## Installation
 
-  Server:
+  Server-side ([Node.js](http://nodejs.org)):
 
     $ npm install copier
 
-  Client:
+  Client-side ([component(1)](https://github.com/component)):
 
     $ component install shannonmoeller/copier.js
 
