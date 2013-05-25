@@ -4,17 +4,17 @@
 
 ## Installation
 
-  Server:
+  Server-side ([Node.js](http://nodejs.org)):
 
     $ npm install copier
 
-  Client:
+  Client-side ([component(1)](https://github.com/component)):
 
     $ component install shannonmoeller/copier.js
 
 ## API
 
-### copier(target, objs...)
+### `copier(target, ...objs)`
 
   Copies the enumerable properties of one or more objects to a target object.
 
