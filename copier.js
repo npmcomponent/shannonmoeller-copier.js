@@ -1,12 +1,12 @@
-/*jshint node:true */
 /**
  * @fileOverview
- * copy Declaration File
+ * Copier Declaration File
  *
  * @author Shannon Moeller
  * @version 1.0
  */
 
+/*jshint node:true */
 'use strict';
 
 /**
@@ -23,9 +23,11 @@ module.exports = function copy(target) {
     for (i = 1, len = args.length; i < len; i += 1) {
         arg = args[i];
 
-        for (key in arg) {
-            if (arg.hasOwnProperty(key)) {
-                target[key] = arg[key];
+        if (arg) {
+            for (key in arg) {
+                if (arg.hasOwnProperty(key)) {
+                    target[key] = arg[key];
+                }
             }
         }
     }
