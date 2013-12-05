@@ -33,3 +33,5 @@ copier(foo, bar); // foo now equals { a: 1, b: 3, c: 4 }
 ## License
 
   MIT
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/shannonmoeller/copier.js/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
